@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+
+    <!-- Google Fonts -->
+    <!-- Poppiins 700 Bold Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Poppins 600 Bold Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Poppins Regular Size -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel = "stylesheet" href = "./styles/index.css">
+
+    <!-- Font Awesome js -->
+    <script src="https://kit.fontawesome.com/58f32eb07a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <div class = "navbar">
+        <img class = "logo" src = "https://deepthought.education/assets/images/logo/logo.svg" alt = "logo-img" />
+        <!-- Icons on the right -->
+        <div class = "nav__iconbar">
+            <div class = "nav__icons"><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
+            <div class = "nav__icons"><i class="fa-solid fa-screwdriver-wrench" style="color: #fafafa;"></i></div>
+            <div class = "nav__icons"><i class="fa-solid fa-bell" style="color: #ffffff;"></i> </div>
+            <div class = "nav__icons"><i class="fa-solid fa-person" style="color: #ffffff;"></i> </div>
+        </div>
+    </div>
+
+
+
+
+    <!--  MAIN BOARD TO BE DEVEOPED GOES HERE >>>>>>>>>>>>> -->
+
+    <div class = "main__board">
+
+        <!-- Journey Board -->
+        <div class = "journey__board">
+            <div class = "black journey__board__header" id="head">          <!--ID : HEAD-->
+                <div class = "open__arrow" id="arrow" onclick = "myFunc()"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></div>
+            </div>
+            <div class = "journey__board__content" id = "content">           <!--ID : CONTENT-->
+                <div class = "uno">
+                    <a class = "one">1</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->        
+        <div class = "content">
+            <div class = "content__header">
+                <h1 class = "content__heading">Technical Project Management</h1>
+                <button class = "submit__task" type = "submit">Submit Task</button>
+            </div>
+
+            <div class = "content__intro">
+                <h3 class = "content__intro__heading">Explore the world of management</h3>
+                <p class = "content__intro__matter">As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
+            </div>
+
+
+
+            <div class = "grid">
+                <!------------------ FIRST DIIV ------------------ -->
+                <div class = "the__divs top__divs">
+                    <div class = "black">
+                        <h5 class = "sheep"></h5>
+                        
+                    </div>
+
+                    <p class = "desc"></p>
+
+                    <div class = "conc">
+                        <iframe width="480px" height="291px"
+                            src="">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- -------------SECOND DIV-------------------- -->
+                <div class = "the__divs top__divs left">
+                    <div class = "black">
+                        <h5 class = "sheep"></h5>
+                        
+                    </div>
+
+                    <p class = "desc thread__build__desc"></p>
+                    
+                    <div class = "conc thread__build__input">
+                        <!-- <iframe src=""></iframe> -->
+
+                        <div class = "thread__build__input__heading"><i class="up__arrow fa-solid fa-angle-up" style="color: #000000;"></i>Thread A</div> <!--Add arrow icon-->
+                        <div class = "sub__thread__1">
+                            <h6 class = "heading sub__thread__1__heading">Sub thread 1</h6>
+                            <div class = "sub__thread__1__inputbox">
+                                <textarea placeholder = "Enter Text here"></textarea> <!--Figure out the textbox-->
+                            </div>
+                        </div>
+                        <div class = "sub__interpretation__1">
+                            <h6 class = "heading sub__interpretation__1__heading">Sub Interpretation 1</h6>
+                            <div class = "sub__interpretation__1__inputbox">
+                                <textarea placeholder = "Enter Text here"></textarea>
+                            </div>
+                        </div>
+                        <div class = "options__and__tools">
+                            <div class = "options__and__tools__icons">
+                                <img class = "tools__thread" src = "./assets/tools.png" alt = "" />
+                            </div>
+                            <div>
+                                
+                                <div class = "category">Select Categ<i class="down__arrow fa-solid fa-angle-down" style="color: #000000;"></i> </div> <!--Add the drop-down icon-->
+                                <div class = "process">Select Proces<i class="down__arrow fa-solid fa-angle-down" style="color: #000000;"></i> </div> <!--Add the drop-down icon-->
+
+                            </div>
+                        </div>
+                        <button class = "sub__thread__button">Sub-Thread</button> <!--Add the plus icon here-->
+                        <div class = "summary__for__thread__A">
+                            <h6 class = "heading summary__for__thread__A__heading">Summary For Thread A</h6>
+                            <div class = "summary__for__thread__A__inputbox">
+                                <textarea class = "input__summary" placeholder = "Enter Text Here"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- -------------------- THIRD DIV---------------------- -->
+                
+                <div class = "the__divs bottom__divs">
+                    <div class = "black">
+                        <h5 class = "sheep"></h5>
+                        
+                    </div>
+                    <p class = "desc"></p>
+
+                    <div class = "conc structure__your__pointers__input">
+
+                        <!-- <iframe src="" width="0px" height="0px"></iframe> -->
+
+                        <h5 class = "title">Title</h5>
+                        <div class = "title__input"></div>
+
+                        <h5 class = "content__head">Content</h5>
+                        <div class = "format__text">
+                            <nav class = "format__text__header">
+                                <ul class = "nav__list">
+                                    <li class = "nav-items">File</li>
+                                    <li class = "nav-items">Edit</li>
+                                    <li class = "nav-items">View</li>
+                                    <li class = "nav-items">Insert</li>
+                                    <li class = "nav-items">Format</li>
+                                    <li class = "nav-items">Tools</li>
+                                    <li class = "nav-items">Table</li>
+                                    <li class = "nav-items">Help</li>
+                                </ul>
+                            </nav>
+                            <nav class = "format__text__tools">
+                                <i class="text__tool fa-solid fa-arrow-turn-up" style="color: #8b8888;"></i> 
+                                <i class="text__tool fa-solid fa-turn-down" style="color: #8b8888;"></i> 
+                                <i class="text__tool fa-solid fa-maximize" style="color: #8b8888;"></i> 
+
+                                <input class = "format__text__tools__input" placeholder = "Paragraph"/>
+                                <i class="text__tool fa-solid fa-ellipsis" style="color: #8b8888;"></i> 
+                            </nav>
+                            <textarea class = "format__text__input"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------------- FOURTH DIV-------------------->
+
+                <div class = "the__divs bottom__divs left">
+                    <div class = "black">
+                        <h5 class = "sheep"></h5>
+                    </div>
+
+                    <p class = "desc FSA__method__desc"></p>
+
+                    <div class = "conc">
+                        <iframe width="480px" height="428px"
+                            src="">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notice Board -->
+        <div class = "notice__board">
+            <div class = "black notice__board__header">
+                <br>
+                <i class="cross fa-solid fa-xmark" style="color: #ffffff;"></i><br><br>
+                <p>N</p>
+                <p>o</p>
+                <p>t</p>
+                <p>i</p>
+                <p>c</p>
+                <p>e</p>
+                <br>
+                <p>B</p>
+                <p>o</p>
+                <p>a</p>
+                <p>r</p>
+                <p>d</p>
+            </div>
+            <div class = "notice__board__content">
+
+            </div>
+        </div>
+        <!-- Random Links -->
+        <div class = "random__links__main">
+            <!-- question mark icon -->
+            <div class = "random__links"><img src = "./assets/question-mark.png" alt = "question-mark-img" /></div>
+            <!-- conferrence icon -->
+            <div class = "random__links"><img src = "./assets/meeting.png" alt = "meeting-img" /></div>
+            <!-- calender icon -->
+            <div class = "random__links"><img src = "./assets/schedule.png" alt = "schedule-img" /></div>
+        </div>
+    </div>
+
+    <script src = "index.js"></script>
+
+    
+</body>
+</html>
